@@ -1,0 +1,112 @@
+
+
+/* comments in CSS are just like Java's */
+
+/*  Type Selectors  */
+
+
+body{
+    color: #878787;
+    margin: 0;
+}
+h1{
+
+}
+h2{
+
+}
+h3{
+
+}
+h4{
+
+}
+h5{
+
+}
+h6{
+
+}
+nav{
+    font-size: 30px;
+    text-align: center;
+}
+img{
+    width:540px; /* you can use % */
+    height: auto;
+}
+/*  Class Selectors */
+
+
+.project-x {
+    background-color: dodgerblue;
+    color: white;
+}
+/*  Id Selectors    */
+
+#under-construction {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 72px;
+    color: crimson;
+}
+
+
+
+
+.class-selector {
+    border: 3px solid red;
+}
+
+.main-header {
+    background-color: orange;
+}
+
+.primary-content {
+    color: orange;
+    text-align: center;
+
+}
+
+.t-border {
+    border-top: 2px solid lightblue;
+}
+
+
+#id-selector{
+
+}
+
+header span {
+    color: white;
+    font-size: 26px;
+}
+
+a:link {
+    color: orange;
+    background-color: white;
+}
+
+a:visited {
+    color: aqua;
+    background-color: #48525c;
+}
+
+a:hover {
+    color: forestgreen;
+}
+p:hover{
+    color: hotpink;
+}
+
+a:active {
+    color: lightcoral;
+}
+
+:focus {
+    color: red;
+    background-color: bisque;
+}
