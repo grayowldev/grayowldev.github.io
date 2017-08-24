@@ -1,6 +1,7 @@
 /*  Tag Level   */
 * {
     box-sizing: border-box;
+    font-family: Trebuchet MS, Georgia, Garamond, ‘Times New Roman’, Times, serif;
 }
 body {
     overflow-x: hidden;
@@ -16,13 +17,15 @@ h5 {}
 h6 {}
 
 /*  Id Level    */
+#objective {}
+
 
 /**/
 /*  Class Level */
 .education {}
 .introduction {}
 .left-side {
-    background-color:#A52A2A;
+    background-color: darkcyan;
     width: 50%;
     height: 100%;
     float: left;
@@ -52,6 +55,13 @@ body {
     padding: 0;
     margin: 0;
 }
+#design-tools,
+#frameworks-platforms,
+#programming-languages,
+#software-devTools {
+    padding-left: 15%;
+    padding-top: 0.5%;
+}
 .right-side li {
     display: inline;
 }
@@ -62,7 +72,8 @@ body {
 
 }
 .skills h3 {
-    text-align: start;
+    display: inline;
 }
+.skills h4 {}
 
 /**/
