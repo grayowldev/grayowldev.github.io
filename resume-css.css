@@ -62,6 +62,13 @@ body {
     padding-left: 15%;
     padding-top: 0.5%;
 }
+.left-side h1,
+.left-side h2,
+.left-side h3,
+.left-side h5 {
+    padding-top: 40%;
+    text-align: center;
+}
 .right-side li {
     display: inline;
 }
