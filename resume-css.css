@@ -1,0 +1,68 @@
+/*  Tag Level   */
+* {
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+div {}
+h1 {}
+h2 {}
+h3 {
+    font-size: 24px;
+}
+h4 {}
+h5 {}
+h6 {}
+
+/*  Id Level    */
+
+/**/
+/*  Class Level */
+.education {}
+.introduction {}
+.left-side {
+    background-color:#A52A2A;
+    width: 50%;
+    height: 100%;
+    float: left;
+    color: white;
+    text-align: center;
+    position: fixed;
+}
+.key-courses {}
+.right-side {
+    background-color:white;
+    color: black;
+    float: right;
+    overflow: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 50%;
+}
+.skills {
+    display: inline-block;
+    padding-top: 1%;
+}
+
+
+/*  */
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+.right-side li {
+    display: inline;
+}
+.skills li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: start;
+
+}
+.skills h3 {
+    text-align: start;
+}
+
+/**/
